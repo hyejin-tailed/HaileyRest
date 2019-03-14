@@ -108,7 +108,7 @@ struct HMainViewControllerModel {
         //MARK: 6 = JSON으로 변환하기
             do {
                 let dataJson = try JSONSerialization.jsonObject(with: _serverData, options: []) as! HDict
-                print(dataJson)
+//                print(dataJson)
                 
                 
                 
