@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B16EDCEDBC11FC37931F7393 /* Pods_haileyRest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E891D523DA6CB1C1C4315B7A /* Pods_haileyRest.framework */; };
+		D2725AE72239358100CB61ED /* HMainViewController_UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2725AE62239358100CB61ED /* HMainViewController_UITableView.swift */; };
+		D2725AE92239367F00CB61ED /* HMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2725AE82239367F00CB61ED /* HMainTableViewCell.swift */; };
+		D2D520A62238769A004F8C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D520A52238769A004F8C08 /* AppDelegate.swift */; };
+		D2D520A82238769A004F8C08 /* HMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D520A72238769A004F8C08 /* HMainViewController.swift */; };
+		D2D520AB2238769A004F8C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D520A92238769A004F8C08 /* Main.storyboard */; };
+		D2D520AE2238769A004F8C08 /* haileyRest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2D520AC2238769A004F8C08 /* haileyRest.xcdatamodeld */; };
+		D2D520B02238769B004F8C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D520AF2238769B004F8C08 /* Assets.xcassets */; };
+		D2D520B32238769B004F8C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D520B12238769B004F8C08 /* LaunchScreen.storyboard */; };
+		D2D520BB223878A4004F8C08 /* HMainViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D520BA223878A4004F8C08 /* HMainViewControllerModel.swift */; };
+		D2D520BF223879E0004F8C08 /* HCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D520BE223879E0004F8C08 /* HCommon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FCFDB0945766ED2A62B3CBE /* Pods-haileyRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haileyRest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-haileyRest/Pods-haileyRest.debug.xcconfig"; sourceTree = "<group>"; };
+		7F367966833E59BDA9C43BDE /* Pods-haileyRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haileyRest.release.xcconfig"; path = "Pods/Target Support Files/Pods-haileyRest/Pods-haileyRest.release.xcconfig"; sourceTree = "<group>"; };
+		D2725AE62239358100CB61ED /* HMainViewController_UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMainViewController_UITableView.swift; sourceTree = "<group>"; };
+		D2725AE82239367F00CB61ED /* HMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMainTableViewCell.swift; sourceTree = "<group>"; };
+		D2D520A22238769A004F8C08 /* haileyRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haileyRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D520A52238769A004F8C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2D520A72238769A004F8C08 /* HMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMainViewController.swift; sourceTree = "<group>"; };
+		D2D520AA2238769A004F8C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2D520AD2238769A004F8C08 /* haileyRest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = haileyRest.xcdatamodel; sourceTree = "<group>"; };
+		D2D520AF2238769B004F8C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D520B22238769B004F8C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2D520B42238769B004F8C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D520BA223878A4004F8C08 /* HMainViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMainViewControllerModel.swift; sourceTree = "<group>"; };
+		D2D520BE223879E0004F8C08 /* HCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCommon.swift; sourceTree = "<group>"; };
+		E891D523DA6CB1C1C4315B7A /* Pods_haileyRest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_haileyRest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D5209F2238769A004F8C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16EDCEDBC11FC37931F7393 /* Pods_haileyRest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAFA052B2FA0C7AEFE5EF8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E891D523DA6CB1C1C4315B7A /* Pods_haileyRest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D520992238769A004F8C08 = {
+			isa = PBXGroup;
+			children = (
+				D2D520A42238769A004F8C08 /* haileyRest */,
+				D2D520A32238769A004F8C08 /* Products */,
+				E012EE0B9FC3072F938E37A7 /* Pods */,
+				8BAFA052B2FA0C7AEFE5EF8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D520A32238769A004F8C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D520A22238769A004F8C08 /* haileyRest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D520A42238769A004F8C08 /* haileyRest */ = {
+			isa = PBXGroup;
+			children = (
+				D2D520A52238769A004F8C08 /* AppDelegate.swift */,
+				D2D520BE223879E0004F8C08 /* HCommon.swift */,
+				D2D520A92238769A004F8C08 /* Main.storyboard */,
+				D2D520A72238769A004F8C08 /* HMainViewController.swift */,
+				D2725AE62239358100CB61ED /* HMainViewController_UITableView.swift */,
+				D2D520BA223878A4004F8C08 /* HMainViewControllerModel.swift */,
+				D2725AE82239367F00CB61ED /* HMainTableViewCell.swift */,
+				D2D520AF2238769B004F8C08 /* Assets.xcassets */,
+				D2D520B12238769B004F8C08 /* LaunchScreen.storyboard */,
+				D2D520B42238769B004F8C08 /* Info.plist */,
+				D2D520AC2238769A004F8C08 /* haileyRest.xcdatamodeld */,
+			);
+			path = haileyRest;
+			sourceTree = "<group>";
+		};
+		E012EE0B9FC3072F938E37A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FCFDB0945766ED2A62B3CBE /* Pods-haileyRest.debug.xcconfig */,
+				7F367966833E59BDA9C43BDE /* Pods-haileyRest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D520A12238769A004F8C08 /* haileyRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D520B72238769B004F8C08 /* Build configuration list for PBXNativeTarget "haileyRest" */;
+			buildPhases = (
+				3F5530955A45A48267FD673A /* [CP] Check Pods Manifest.lock */,
+				D2D5209E2238769A004F8C08 /* Sources */,
+				D2D5209F2238769A004F8C08 /* Frameworks */,
+				D2D520A02238769A004F8C08 /* Resources */,
+				39204C64A896E020AF207DCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = haileyRest;
+			productName = haileyRest;
+			productReference = D2D520A22238769A004F8C08 /* haileyRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D5209A2238769A004F8C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hailey;
+				TargetAttributes = {
+					D2D520A12238769A004F8C08 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D2D5209D2238769A004F8C08 /* Build configuration list for PBXProject "haileyRest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D520992238769A004F8C08;
+			productRefGroup = D2D520A32238769A004F8C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D520A12238769A004F8C08 /* haileyRest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D520A02238769A004F8C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D520B32238769B004F8C08 /* LaunchScreen.storyboard in Resources */,
+				D2D520B02238769B004F8C08 /* Assets.xcassets in Resources */,
+				D2D520AB2238769A004F8C08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39204C64A896E020AF207DCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-haileyRest/Pods-haileyRest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-haileyRest/Pods-haileyRest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5530955A45A48267FD673A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-haileyRest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D5209E2238769A004F8C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D520A82238769A004F8C08 /* HMainViewController.swift in Sources */,
+				D2725AE72239358100CB61ED /* HMainViewController_UITableView.swift in Sources */,
+				D2725AE92239367F00CB61ED /* HMainTableViewCell.swift in Sources */,
+				D2D520BB223878A4004F8C08 /* HMainViewControllerModel.swift in Sources */,
+				D2D520BF223879E0004F8C08 /* HCommon.swift in Sources */,
+				D2D520A62238769A004F8C08 /* AppDelegate.swift in Sources */,
+				D2D520AE2238769A004F8C08 /* haileyRest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2D520A92238769A004F8C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D520AA2238769A004F8C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2D520B12238769B004F8C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D520B22238769B004F8C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D520B52238769B004F8C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D520B62238769B004F8C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D520B82238769B004F8C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCFDB0945766ED2A62B3CBE /* Pods-haileyRest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4M43UC55E;
+				INFOPLIST_FILE = haileyRest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.haileyRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2D520B92238769B004F8C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F367966833E59BDA9C43BDE /* Pods-haileyRest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4M43UC55E;
+				INFOPLIST_FILE = haileyRest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.haileyRest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D5209D2238769A004F8C08 /* Build configuration list for PBXProject "haileyRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D520B52238769B004F8C08 /* Debug */,
+				D2D520B62238769B004F8C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D520B72238769B004F8C08 /* Build configuration list for PBXNativeTarget "haileyRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D520B82238769B004F8C08 /* Debug */,
+				D2D520B92238769B004F8C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2D520AC2238769A004F8C08 /* haileyRest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2D520AD2238769A004F8C08 /* haileyRest.xcdatamodel */,
+			);
+			currentVersion = D2D520AD2238769A004F8C08 /* haileyRest.xcdatamodel */;
+			path = haileyRest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2D5209A2238769A004F8C08 /* Project object */;
+}
